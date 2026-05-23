@@ -1,0 +1,16 @@
+# Jupyter Book build output
+_build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
