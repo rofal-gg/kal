@@ -25,7 +25,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install jupyter-book matplotlib numpy pillow
+        run: pip install "jupyter-book<2" matplotlib numpy pillow
 
       - name: Build book
         run: jupyter-book build .
